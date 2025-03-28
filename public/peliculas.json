@@ -1,6 +1,6 @@
 [
   {
-
+"id":"1",
     "titulo": "El Padrino",
     "director": "Francis Ford Coppola",
     "año": 1972,
@@ -10,6 +10,7 @@
     "duracion": 175
   },
   {
+    "id":"2",
     "titulo": "Interestelar",
     "director": "Christopher Nolan",
     "año": 2014,
@@ -19,6 +20,7 @@
     "duracion": 169
   },
   {
+    "id":"3",
     "titulo": "Pulp Fiction",
     "director": "Quentin Tarantino",
     "año": 1994,
@@ -28,6 +30,7 @@
     "duracion": 154
   },
   {
+    "id":"4",
     "titulo": "Matrix",
     "director": "Lana y Lilly Wachowski",
     "año": 1999,
@@ -37,6 +40,7 @@
     "duracion": 136
   },
   {
+    "id":"5",
     "titulo": "Titanic",
     "director": "James Cameron",
     "año": 1997,
@@ -46,6 +50,7 @@
     "duracion": 195
   },
   {
+    "id":"6",
     "titulo": "El caballero oscuro",
     "director": "Christopher Nolan",
     "año": 2008,
@@ -55,6 +60,7 @@
     "duracion": 152
   },
   {
+    "id":"7",
     "titulo": "Gladiador",
     "director": "Ridley Scott",
     "año": 2000,
@@ -64,6 +70,7 @@
     "duracion": 155
   },
   {
+    "id":"8",
     "titulo": "Forrest Gump",
     "director": "Robert Zemeckis",
     "año": 1994,
@@ -73,6 +80,7 @@
     "duracion": 142
   },
   {
+    "id":"9",
     "titulo": "Inception",
     "director": "Christopher Nolan",
     "año": 2010,
@@ -82,6 +90,7 @@
     "duracion": 148
   },
   {
+    "id":"10",
     "titulo": "Los Vengadores",
     "director": "Joss Whedon",
     "año": 2012,
@@ -91,93 +100,13 @@
     "duracion": 143
   },
   {
-    "titulo": "Jurassic Park",
-    "director": "Steven Spielberg",
-    "año": 1993,
-    "generos": ["Aventura", "Ciencia ficción"],
-    "actores": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
-    "puntuacion": 8.1,
-    "duracion": 127
-  },
-  {
-    "titulo": "La La Land",
-    "director": "Damien Chazelle",
-    "año": 2016,
-    "generos": ["Romance", "Drama", "Musical"],
-    "actores": ["Ryan Gosling", "Emma Stone", "J.K. Simmons"],
-    "puntuacion": 7.8,
-    "duracion": 128
-  },
-  {
-    "titulo": "El señor de los anillos: El retorno del rey",
-    "director": "Peter Jackson",
-    "año": 2003,
-    "generos": ["Aventura", "Fantasía", "Acción"],
-    "actores": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
-    "puntuacion": 9.0,
-    "duracion": 201
-  },
-  {
-    "titulo": "El resplandor",
-    "director": "Stanley Kubrick",
-    "año": 1980,
-    "generos": ["Terror", "Drama", "Suspenso"],
-    "actores": ["Jack Nicholson", "Shelley Duvall", "Danny Lloyd"],
-    "puntuacion": 8.4,
-    "duracion": 146
-  },
-  {
-    "titulo": "Parasite",
-    "director": "Bong Joon-ho",
-    "año": 2019,
-    "generos": ["Drama", "Suspenso"],
-    "actores": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
-    "puntuacion": 8.6,
-    "duracion": 132
-  },
-  {
-    "titulo": "Django sin cadenas",
-    "director": "Quentin Tarantino",
+    "id":"11",
+    "titulo": "Los Vengadores",
+    "director": "Joss Whedon",
     "año": 2012,
-    "generos": ["Western", "Acción", "Drama"],
-    "actores": ["Jamie Foxx", "Christoph Waltz", "Leonardo DiCaprio"],
-    "puntuacion": 8.4,
-    "duracion": 165
-  },
-  {
-    "titulo": "Star Wars: Una nueva esperanza",
-    "director": "George Lucas",
-    "año": 1977,
-    "generos": ["Ciencia ficción", "Aventura", "Fantasía"],
-    "actores": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
-    "puntuacion": 8.6,
-    "duracion": 121
-  },
-  {
-    "titulo": "Toy Story",
-    "director": "John Lasseter",
-    "año": 1995,
-    "generos": ["Animación", "Aventura", "Comedia"],
-    "actores": ["Tom Hanks", "Tim Allen", "Don Rickles"],
-    "puntuacion": 8.3,
-    "duracion": 81
-  },
-  {
-    "titulo": "Mad Max: Furia en el camino",
-    "director": "George Miller",
-    "año": 2015,
     "generos": ["Acción", "Aventura", "Ciencia ficción"],
-    "actores": ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"],
-    "puntuacion": 8.1,
-    "duracion": 120
-  },
-  {
-    "titulo": "Blade Runner 2049",
-    "director": "Denis Villeneuve",
-    "año": 2017,
-    "generos": ["Ciencia ficción", "Misterio", "Drama"],
-    "actores": ["Ryan Gosling", "Harrison Ford", "Ana de Armas"],
-    "puntuacion": 8.2,
-    "duracion": 164
+    "actores": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+    "puntuacion": 8.0,
+    "duracion": 143
   }
 ]
