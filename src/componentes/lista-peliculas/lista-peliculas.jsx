@@ -3,9 +3,10 @@ import { useEffect, useState } from 'react';
 export default function ListaPeliculas() {
   const [coleccion, setColeccion] = useState([]);
   useEffect(() => {
-    fetch('./peliculas.json')
+    fetch('http://localhost:3000/peliculas')
       .then(res => res.json())
       .then(data => setColeccion(data))
+      
       .catch(error => console.log(error));
   }, []);
 
@@ -20,6 +21,7 @@ export default function ListaPeliculas() {
                 <th> Título</th>
                 <th> Director</th>
                 <th> Géneros</th>
+                <th> Actores</th>
                 <th> Año</th>
               </tr>
             </thead>
@@ -30,6 +32,7 @@ export default function ListaPeliculas() {
                   <td>{pelicula.director}</td>
 
                   <td>{pelicula.generos.join(' - ')}</td>
+                  <td>{pelicula.actores.join(' - ')}</td>
 
                   <td>{pelicula.año}</td>
                 </tr>
