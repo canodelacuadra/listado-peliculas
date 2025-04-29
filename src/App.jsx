@@ -9,10 +9,10 @@ const App = () => {
 
   return (
     <>
-      <h3>Form Registro</h3>
+      {/*   <h3>Form Registro</h3>
       <FormRegistro />
-      <h3>Form Login</h3>
-      <FormLogin />
+      <h3>Form Login</h3> 
+      <FormLogin />*/}
       <ListaPeliculas />
     </>
   );

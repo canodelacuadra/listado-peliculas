@@ -3,10 +3,10 @@ import { useEffect, useState } from 'react';
 export default function ListaPeliculas() {
   const [coleccion, setColeccion] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:3000/peliculas')
+    fetch('https://api-rest-mongo-express-fb7i.onrender.com/peliculas')
       .then(res => res.json())
       .then(data => setColeccion(data))
-      
+
       .catch(error => console.log(error));
   }, []);
 
